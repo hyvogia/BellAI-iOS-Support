@@ -13,5 +13,12 @@ export function SearchIcon() {
   );
 }
 export function BrandIcon() {
-  return <img src="/bellai-logo.png" alt="" width="43" height="43" />;
+  return (
+    <img
+      src={`${import.meta.env.BASE_URL}bellai-logo.png`}
+      alt=""
+      width="43"
+      height="43"
+    />
+  );
 }
